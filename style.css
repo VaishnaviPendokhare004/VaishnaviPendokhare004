@@ -1,0 +1,94 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f3e8ff, #ffffff, #e9d5ff);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  color: #6b21a8;
+  font-size: 2.5rem;
+}
+
+header p {
+  color: #555;
+  margin-top: 5px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: #6b21a8;
+  transition: transform 0.3s;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+section h2 {
+  text-align: center;
+  color: #6b21a8;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 1.2rem;
+  margin: 1rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.skills span {
+  background: #ede9fe;
+  color: #6b21a8;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.skills span:hover {
+  transform: scale(1.1);
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ede9fe;
+  color: #555;
+  margin-top: 2rem;
+}
